@@ -1,0 +1,68 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 400%;
+}
+
+header {
+	padding: 1em;
+	background-image: url('background.jpg');
+}
+
+.fancy-links {
+	text-decoration: none;
+	font-size: 150%;
+	color: black;
+	float: left;
+	
+}
+
+.fancy-links li {
+	list-style-type: none;
+	padding: 1em 0;
+	font-family: 'Pacifico', cursive;
+	
+}
+
+
+.fancy-links li:hover {
+	background-color: #999;
+	cursor: pointer; 
+}
+
+.fancy-links a {
+	color: black;
+	font-family: 'Pacifico', cursive;
+	text-decoration: none;
+}
+
+.recipe-preview {
+	border: 4px solid black;
+	padding: 3em;
+	text-align: center;
+	font-family: sans-serif;
+	line-height: 1.7em;
+}
+
+.recipe-preview h2 {
+	font-size: 200%;
+	font-family: 'Pacifico', cursive;
+}
+
+.recipe-preview ul, .recipe-preview li {
+	list-style-type: none;
+}
